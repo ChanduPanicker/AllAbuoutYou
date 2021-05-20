@@ -1,0 +1,67 @@
+/* This is for all the text in the web */
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-image: IMG1.jpeg; */
+}
+/* This is for the headers background size */
+ul{
+    padding: 20px;
+}
+/* This is for the links in the header */
+li {
+    list-style: none;
+    display: inline;
+    margin: 120px; 
+    
+}
+/* this is for the header's background color */
+nav {
+    background-color: black;
+}
+/* This is for the color of the text in header */
+li a {
+    color: white;
+    text-decoration: wavy;
+}
+li a:hover {
+    color: rgb(255, 0, 0);
+    
+}
+/* This is just to display a bigger horizontal rule */
+hr{
+    border: 2px solid black;
+}
+div{
+    padding: 10px;
+}
+.Name{
+    text-align: right;
+    padding-right: 100px;
+    
+}
+.Heading{
+    text-align: center ;
+    font-family: cursive;
+}
+footer{
+    background-color: black;  
+    color: white;
+    padding: 20px;
+    text-align: center;
+} 
+.Para{
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: center;
+    margin: 30px;
+    border: solid black 2px;
+    padding: 10px;
+}
+button:hover{
+    color: rgb(255, 0, 0);
+}
+button{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
